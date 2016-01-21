@@ -23,7 +23,7 @@ namespace EmployeeListEngine.Services
                 string name = Name[random.Next(Name.Count - 1)];
                 string title = Title[random.Next(Title.Count - 1)];
 
-                Employee employee = new Employee() { EmployeeUri = picturePath, Name = name, Title = title};
+                Employee employee = new Employee() { ImgUrl = picturePath, FirstName = name, Title = title};
                 employees.Add(employee);
             }
             return employees;

@@ -12,9 +12,9 @@
         <ListView.ItemTemplate>
           <DataTemplate>
             <ImageCell
-							Text="{Binding Name}"
+							Text="{Binding FirstName}"
 							Detail="{Binding Title}"
-							ImageSource="{Binding Path=PicturePath}">
+							ImageSource="{Binding Path = ImgUrl}">
             </ImageCell>
           </DataTemplate>
         </ListView.ItemTemplate>

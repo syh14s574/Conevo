@@ -16,12 +16,7 @@ namespace EmployeeList
         public App()
         {
 
-            //SeedDatabase();
-
-            // The root page of your application
-            //MainPage = new ContactPage();
             MainPage = new NavigationPage(new EmployeeListView());
-            //MainPage = new NavigationPage(new NamePage());
         }
 
         protected override void OnStart()
