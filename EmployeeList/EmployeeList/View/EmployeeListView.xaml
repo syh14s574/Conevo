@@ -8,11 +8,6 @@
 
   <ContentPage.Content>
     <StackLayout VerticalOptions="FillAndExpand" Padding="5,20,5,0" >
-      <Label
-				Text="Employees"
-				VerticalOptions="Center"
-				Font="35"
-				HorizontalOptions="Center" />
       <ListView x:Name="list" ItemsSource="{Binding Employees}">
         <ListView.ItemTemplate>
           <DataTemplate>
